@@ -21,6 +21,14 @@ Additional changes:
 
  - Print symbol next to special keys names (for Backspace ⌫, Caps Lock ⇩, Return ↵, Shift ⇧, Tab ↹)
 
+This version incorporates various changes/fixes from:
+
+- https://github.com/154pinkchairs/keyboardlayouteditor
+- https://github.com/hupfdule/keyboardlayouteditor
+- https://github.com/rrika/keyboardlayouteditor
+- https://github.com/phrxmd/keyboardlayouteditor
+
+
 
 ## Requirements
 
@@ -66,12 +74,19 @@ All *.g files should be processed with ANTLR:
 ```
 
 The first command installs the Python 2 package manager.
+
 The second command installs the Python 2 Antlr 3.1.2 runtime.
+
 The third command downloads the antlr 3.1.2 JAR file (code of Antlr) in the current directory.
+
 The antlr3 package in Ubuntu is for Antlr 3.2, but we cannot use it because it is a bit complicated to get a 3.2 python runtime.
+
 The fourth command runs the Antlr code on the .g grammar files that exist in the KeyboardLayoutEditor directory.
-These are four files, and produces the processed grammar. 
+
+These are four files, and produces the processed grammar.
+
 Then, you can start the KeyboardLayoutEditor program.
+
 
 ## Running
 
